@@ -1,12 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-function LocationDetails({ city, country }) {
-  return (
-    <h2>
-      {city}, {country}
-    </h2>
-  );
+function LocationDetails(props) {
+  const { city, country } = props;
+  return <h1>{`${city}, ${country}`}</h1>;
 }
 LocationDetails.propTypes = {
   city: PropTypes.string.isRequired,
