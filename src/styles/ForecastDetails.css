@@ -1,0 +1,11 @@
+.forecast-details {
+    border: 1px solid pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold{
+    font-weight: 800;
+};

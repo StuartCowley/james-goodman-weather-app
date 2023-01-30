@@ -2,7 +2,7 @@ import React from "react";
 import { render } from "@testing-library/react";
 import ForecastSummary from "../../components/ForecastSummary";
 
-describe("ForecaseSummary", () => {
+describe("ForecastSummary", () => {
   const validProps = {
     date: 1111111,
     description: "Stub description",
